@@ -1,0 +1,108 @@
+
+body {
+    background-image: url('icons/weather-live-wallpaper-icon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:space-between;
+
+
+
+}
+#time {
+    text-align: center;
+    border-radius:5px;
+    padding-top: 250px;
+    height: 150px;
+    margin-top: 50px;
+    width: 250px;
+    font-size: 30px;
+      font-weight: bold;
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.left-container{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    font-size: 35px;
+    padding-top: 30px;
+    margin-top: 250px;
+    border-radius: 25px;
+    margin-right: 150px;
+    margin-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 150px;
+    text-align: center;
+    flex:0.75;
+    padding: 20;
+}
+
+
+.container{
+    margin-top: 200px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+    background-color: rgba(166, 168, 163, 0.683);    border-radius: 50px;
+    flex:1;
+    text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    width:30%;
+}
+
+.weather-container{
+    text-align: center;
+}
+
+body {
+    background-image: url('icons/weather-live-wallpaper-icon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #050505;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value span{
+    color: #050505;
+    font-size: 0.5em;
+}
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #080808;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #090909;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
